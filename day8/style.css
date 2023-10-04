@@ -1,0 +1,67 @@
+.wrap{
+    border: 1px solid black;
+    width: 80%;
+    height: 90vh;
+    margin: 0 auto;
+    position: relative;
+}
+.box{
+    width: 100px;
+    position: absolute;
+    height: 100px;
+    background-color: coral;
+    /* animation-name:motto; */
+    animation: move 5s infinite;
+    animation-duration: 5s;
+    left: 0;
+    top:0;
+}
+@keyframes move{
+0%{
+    top:0;
+    left:0;
+    background-color: aquamarine;
+}
+25%{
+    top:0;
+    left:calc(100% - 100px);
+    background-color: bisque;
+}
+50%{
+    top: calc(100% - 100px);
+    left:calc(100% - 100px);
+    background-color: cadetblue;
+}
+75%{
+    top:calc(100% - 100px);
+    left:0;
+    background-color: cornflowerblue;
+}
+}
+.heart{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%), scale(1);
+    font-size: 70px;
+    animation-name: heartmove;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes heartmove{
+    0%{
+        transform: translate(-50%,-50%) scale(1);
+    }
+    33%{
+        transform: translate(-50%,-50%) scale(2);
+    }
+    66%{
+        transform: translate(-50%,-50%) scale(3);
+    }
+    100%{
+        transform: translate(-50%,-50%) scale(2);
+    }
+}
+h1{
+    text-align: center;
+}
