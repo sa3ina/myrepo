@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+.container {
+  background-image: url("https://user-images.githubusercontent.com/56477695/151697367-889c781d-934a-4742-b444-d96d14541962.png");
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.navbar {
+  margin: 0 auto;
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.sign {
+  background-color: transparent;
+  padding: 7px 20px;
+  border: 1px solid white;
+  color: white;
+}
+.section {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.left-sect {
+  width: 400px;
+}
+.left-sect .welcome {
+  font-size: 18px;
+}
+.left-sect .lorem {
+  font-size: 16px;
+  margin-bottom: 50px;
+  line-height: 24px;
+  color: rgb(139, 184, 184);
+  padding-right: 70px;
+}
+.left-sect h1 {
+  font-size: 70px;
+  text-align: left;
+  margin-bottom: 40px;
+  margin-top: 10px;
+}
+.left-sect .welcome {
+  font-size: 18px;
+}
+.right-sect p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+footer {
+  padding: 30px 0px 40px 0px;
+  border-top: 1px solid white;
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+.footer-first,
+.footer-third {
+  flex: 1;
+}
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  gap: 20px;
+}
+ul li {
+  list-style: none;
+  width: 100px;
+}
+ul li span {
+  margin-bottom: 10px;
+}
+.footer-first {
+  border-right: 1px solid white;
+  padding-right: 10px;
+  padding: 0px 20px;
+}
+.footer-second {
+  flex: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 70px;
+  border-right: 1px solid white;
+  padding-right: 10px;
+  padding: 0px 20px;
+}
+.footer-second .second-lorem {
+  width: 400px;
+  padding: 0px 30px;
+}
+.footer-third {
+  padding: 0px 20px;
+  text-align: right;
+}
+.right-sect img {
+  opacity: 0.5;
+}
